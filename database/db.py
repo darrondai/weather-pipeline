@@ -24,7 +24,7 @@ db_url = URL.create(
 # create engine which will be shared across all db operations
 engine = create_engine(db_url, echo=True)
 
-# create sessionmaker which will be shared across all db operations
+# create sessionmaker which will be shared across all ORM operations
 SessionLocal = sessionmaker(engine)
 
 
