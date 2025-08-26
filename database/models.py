@@ -4,7 +4,7 @@ from datetime import datetime
 from sqlalchemy.orm import Mapped, mapped_column
 from sqlalchemy import Boolean, DateTime, Numeric
 
-from database.base import Base
+from database.db import Base
 
 
 class Weather(Base):

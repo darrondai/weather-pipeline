@@ -1,5 +1,4 @@
-from database.base import Base
-from database.session import engine
+from database.db import Base, engine
 from database.models import Weather
 
 
